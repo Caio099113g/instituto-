@@ -22,6 +22,9 @@ header{
         align-items: center;
         gap: 20px;
         margin: 0;
+        color: #000000;
+        text-decoration: none;
+        
     }
 
     li{
@@ -45,10 +48,12 @@ header{
 
     p{
         font-size: 1.2rem;
+        color: #000000cc;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     }
 
     button{
-        background-color: #00467c;
+        background-color: #000000;
         color: #fff;
         padding: 10px 12px;
         font-weight: 500;
@@ -67,6 +72,33 @@ header{
          top: 300px;
     }
 }
+ 
+ .carousel-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
 
+.carousel-item {
+    position: relative;
+}
 
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
 
+.btn-custom {
+    margin-top: 10px;
+    background-color: transparent; /* Remove o fundo */
+    color: white; /* Cor do texto do botão */
+    border: 1px solid white; /* Borda branca */
+}
+
+.btn-custom:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efeito de hover */
+}
