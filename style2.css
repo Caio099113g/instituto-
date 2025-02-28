@@ -1,4 +1,4 @@
-* {
+* { /*Define configurações sobre todo o html*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,18 +6,18 @@
     list-style: none;
 }
 
-header{
+header{/*Define configurações sobre a estrutura do carrousel, que está no header*/
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 70px;
 
-    img{
+    img{/*define configurações de tamanho e margem sobre todas as imagens*/
         height: 36px;
         margin: 16px 10px;
     }
 
-    ul{
+    ul{/*configurações de dislay e aparência da nav bar*/
         display: flex;
         align-items: center;
         gap: 20px;
@@ -27,32 +27,32 @@ header{
         
     }
 
-    li{
+    li{/*configurações dos textos, opções dentro da nav bar*/
         cursor: pointer;
         color: #000000;
         font-size: 13px;
     }
 }
 
-.carouser-content{
+.carouser-content{/*configurações sobre a posição das imagens dentro do carrousel*/
     position: absolute;
     top: 60px;
     width: 30%;
     margin-left: 5%;
 
-    h2{
+    h2{ /*configurações de todos os h2 ou subtítulo de tamanho e margem*/
         font-size: 1.8rem;
         font-weight: 600;
         margin-bottom: 10px;
     }
 
-    p{
+    p{ /*configurações estéticas de todos os paragrafos*/
         font-size: 1.2rem;
         color: #000000cc;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     }
 
-    button{
+    button{ /*define configurações estéticas e de espaçamento sobre todos os botões*/
         background-color: #000000;
         color: #fff;
         padding: 10px 12px;
@@ -60,20 +60,20 @@ header{
         border: none;
     }
 
-    a{  
+    a{ /*define configurações estéticas e de margem de todos os links*/ 
         font-size: 1.2rem;
         margin-left: 10px;
         font-weight: 600;
     }
 
 }
-.slide{
+.slide{ /*define configurações dos botões de passar ou voltar do carrousel*/
     .carousel-control-prev, .carousel-control-next{
          top: 300px;
     }
 }
  
- .carousel-content {
+ .carousel-content { /*define configurações sobre os quadrados que contém os textos de apresentação*/
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -83,11 +83,11 @@ header{
     border-radius: 5px;
 }
 
-.carousel-item {
+.carousel-item { /*define a posição dos itens do carrousel*/
     position: relative;
 }
 
-.carousel-item img {
+.carousel-item img { /*define o tamanho das imagens do carrousel*/
     width: 100%;
     height: auto;
 }
