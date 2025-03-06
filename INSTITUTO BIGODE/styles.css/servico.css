@@ -9,14 +9,14 @@
 .divisao {
     width: 100px;
     height: 3px;
-    background-color: #22577aff;
+    background-color: #f9c1d3;
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
 body {
     background-color: white;
-    background-image: url(../img/fundo-teste.jpg);
+    background-image: url(../img/toppp.webp);
     background-position:center;
     background-size: cover;
     background-attachment: fixed;
@@ -48,7 +48,7 @@ header ul li{
 }
 
 header a{
-    color:#22577aff ;
+    color:rgb(0, 0, 0) ;
     text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ header a:hover{
 }
 
 .como_ajudar a{
-    background-color:rgb(223, 190, 6);
+    background-color:#f9c1d3;
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -86,11 +86,11 @@ nav {
     width: 100%; 
     height: 90px;
     margin-bottom: 40px;
-    background-color: #22577aff;
+    background-color: rgb(0, 0, 0);
 }
 
 nav:hover{
-    background-color: rgb(46, 104, 170);
+    background-color: rgb(92, 68, 87);
 }
 
 img.logo {
@@ -245,16 +245,69 @@ footer {
     justify-content: start;
     align-items: center;
     height: 130px;
-    background-color: #22577aff;
+    background-color: rgb(43, 40, 42); 
     
 }
 
-footer p {
-    font-size: 19px;
-    color: white;
-    margin: 25px;
-    padding: 5px;
+footer{
+    background-color: rgb(43, 40, 42); 
+    margin-top: 2300px; 
 }
+
+.footer_flex {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+}
+
+footer p {
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+    justify-content: center;
+    padding: 5px;
+    width: 70%;
+}
+
+
+.social-medias {
+    /* position: relative; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    
+}
+
+footer .social-medias {
+    width: 30%;
+    height: 130px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    margin-left: 15px;
+}
+
+footer .autoria{
+    text-align: center;
+    display: flex;
+}
+
+.autoria img{
+    width: 20px;
+    margin-top: 5px;
+}
+
+footer hr{
+    margin-bottom: 10px;
+    color: white;
+}
+ 
 
 
 
@@ -268,7 +321,7 @@ footer p {
         display: flex;
         width: 100%; 
         height: 200px;
-        background-color: #22577aff;
+        background-color: rgb(0, 0, 0);
     }
     
     img.logo{
