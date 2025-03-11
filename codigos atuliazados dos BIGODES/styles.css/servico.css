@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.divisao {
+    width: 100px;
+    height: 3px;
+    background-color: #f9c1d3;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: white;
+    background-image: url(../img/toppp.webp);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*****HEADER*****/
+
+header h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 48px;
+    line-height: 3rem;
+    color: #f9c1d3;
+}
+
+
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+header ul li{
+    margin-left: 6px;
+    margin-right: 6px ;
+}
+
+header a{
+    color:#ffa9c4;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
+header a:hover{
+    text-decoration:overline;
+}
+
+/*****FIM HEADER*****/
+
+.topo{
+    right: 0;
+    margin: 0px;
+}
+
+.como_ajudar,.topo{
+    position: fixed;
+    bottom: 0;
+    margin: 15px;
+}
+
+.como_ajudar a{
+    background-color:#4169e1;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*NAVBAR*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; 
+    height: 90px;
+    margin-bottom: 40px;
+    background-color: rgb(0, 0, 0);
+}
+
+nav:hover{
+    background-color: rgb(92, 68, 87);
+}
+
+img.logo {
+    margin-left: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+#sobre_logo{
+    border: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 10px;
+    list-style: none;
+    color: white;
+    font-size: 26px;
+}
+
+/*FIM DA NAVBAR*/
+
+main{
+    width: 1080px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*********GRID********/
+main .grid_1{
+    display: grid;
+    grid-template: 
+    "img1 txt1" 500px
+    "txt2 img2" 500px
+    "img3 txt3" 500px
+    "txt4 img4" 500px
+    "img5 txt5" 500px
+    "txt6 img6" 500px;
+    height: 100vh;
+}
+
+main img{
+    width: 100%;
+    height: 300%;
+}
+
+.grid_1 .grid_img1{
+    grid-area: img1;
+    background-image: url(https://gooutside.com.br/wp-content/uploads/sites/3/2020/03/mudar-o-treino.jpg);
+}
+
+.grid_1 .grid_img2{
+    grid-area: img2;
+    background-image: url(https://www.bloomberglinea.com/resizer/v2/3A7M7E4FSNAULLD3CJ3QKYXJOY.jpg?auth=fc2ac66f13105e3ef8fca2e549f6a813f4fb809f51131eba23cb3587ec37b732&width=800&height=533&quality=80&smart=true);
+}
+
+.grid_1 .grid_txt1{
+    grid-area: txt1;
+}
+
+.grid_1 .grid_txt2{
+    grid-area: txt2;
+    background-color: white;
+}
+
+.grid_1 .grid_img3{
+    grid-area: img3;
+    background-image: url(https://pt.thechurchnews.com/resizer/v2/IPLYXMLFLLFOHQAPQ36P362M4Q.jpg?auth=5858779ed2087b83474ab3ebb732a84d50db87d39f52652faf1595a1c1fb7036&focal=512%2C341&width=800&height=533);
+}
+
+.grid_1 .grid_txt3{
+    grid-area: txt3;
+    background-color: white;
+}
+
+.grid_1 .grid_img4{
+    grid-area: img4;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Treino_da_sele%C3%A7%C3%A3o_de_basquete_dos_Estados_Unidos_%2828154261874%29.jpg/800px-Treino_da_sele%C3%A7%C3%A3o_de_basquete_dos_Estados_Unidos_%2828154261874%29.jpg);
+    background-position: center;
+}
+
+.grid_1 .grid_img5{
+    grid-area: img5;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Atletas_da_nata%C3%A7%C3%A3o_treinam_no_Est%C3%A1dio_Aqu%C3%A1tico_%2828023290343%29.jpg/800px-Atletas_da_nata%C3%A7%C3%A3o_treinam_no_Est%C3%A1dio_Aqu%C3%A1tico_%2828023290343%29.jpg);
+    background-position: center;
+}
+
+.grid_1 .grid_img6{
+    grid-area: img6;
+    background-image: url();
+    background-position: center;
+}
+
+.grid_1 .grid_txt4{
+    grid-area: txt4;
+    background-color: white;
+}
+
+.grid_1 .grid_txt5{
+    grid-area: txt5;
+    background-color: white;
+}
+
+.grid_1 .grid_txt6{
+    grid-area: txt6;
+    background-color: white;
+}
+
+.grid_1 .grid_txt1,
+.grid_1 .grid_txt2,
+.grid_1 .grid_txt3,
+.grid_1 .grid_txt4,
+.grid_1 .grid_txt5,
+.grid_1 .grid_txt6
+{
+    display: flex;
+   align-items: center;
+}
+
+.grid_1 p{
+    margin: 20px;
+}
+
+.grid_1 h1{
+    margin: 10px;
+    font-weight: 700;
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 48px;
+    line-height: 3rem;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 130px;
+    background-color: rgb(43, 40, 42); 
+    
+}
+
+footer{
+    background-color: rgb(43, 40, 42); 
+    margin-top: 2300px; 
+}
+
+.footer_flex {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+}
+
+footer p {
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+    justify-content: center;
+    padding: 5px;
+    width: 70%;
+}
+
+
+.social-medias {
+    /* position: relative; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    
+}
+
+footer .social-medias {
+    width: 30%;
+    height: 130px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    margin-left: 15px;
+}
+
+footer .autoria{
+    text-align: center;
+    display: flex;
+}
+
+.autoria img{
+    width: 20px;
+    margin-top: 5px;
+}
+
+footer hr{
+    margin-bottom: 10px;
+    color: white;
+}
+ 
+
+
+
+@media screen and (max-width:800px){
+    
+    header ul{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        width: 100%; 
+        height: 200px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    img.logo{
+        width: 150px;
+        position: relative;
+    }
+
+    .logo {
+        margin-left: 0px;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    nav li {
+        padding: 0px;
+        list-style: none;
+        color: white;
+        font-size: 26px;
+    }
+
+    /*MAIN*/
+
+    main{
+        width: 360px;
+        background-color: white;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    main .grid_1{
+        display: grid;
+        grid-template: 
+        "img1" 300px
+        "txt1" 400px
+        "img2" 300px
+        "txt2" 400px
+        "img3" 300px
+         "txt3" 400px
+        "img4" 300px
+         "txt4" 400px
+         "img5" 300px
+         "txt5" 400px
+         "img6" 300px
+         "txt6" 400px/
+         360px;
+        height: 100vh;
+    }
+    
+    main img{
+        width: 100%;
+        height: 300%;
+    }
+    
+    .grid_1 p{
+        margin: 20px;
+    }
+    
+    .grid_1 h1{
+        margin: 10px;
+    }
+
+}
