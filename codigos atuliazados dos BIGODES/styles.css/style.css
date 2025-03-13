@@ -110,6 +110,7 @@ nav a {
 nav a:hover{
     border: 2px solid white;
     border-radius: 25px;
+    background-color: #f9c1d3;
 }
 
 #sobre_logo{
@@ -149,7 +150,7 @@ nav li {
     border-color: #c7f9cc ;
 }
 
-.texto-apresentacao p {
+.texto-apresentacao button {
     margin-top: 25px;
     align-items: center;
     justify-items: center;
@@ -157,9 +158,13 @@ nav li {
     line-height: 48px;
     line-height: 3rem;
     width: 65vh;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    
 }
 
-.texto-apresentacao p a  {
+.texto-apresentacao button a  {
         text-decoration: none;
         background-color: #000000;
         border-radius: 10px;
